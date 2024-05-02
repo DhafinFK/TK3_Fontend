@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link
+  		rel="stylesheet"
+  		href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+		>	
+		<title>Document</title>
+	</head>
+	
+	<body>
+		<nav class="navbar is-primary is-fixed-top" role="navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item is-size-3 has-text-weight-bold">
+					PacilFlix
+				</a>
+		
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+		
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-start">
+					<a class="navbar-item is-active">
+						Favorites
+					</a>
+		
+					<a class="navbar-item">
+						Downloads
+					</a>
+		
+					<a class="navbar-item">
+						Subscription
+					</a>
+		
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link">
+							Explore
+						</a>
+		
+						<div class="navbar-dropdown">
+							<a class="navbar-item">
+								Movies
+							</a>
+							<a class="navbar-item">
+								Series
+							</a>
+							<a class="navbar-item">
+								Trailers
+							</a>
+						</div>
+					</div>
+				</div>
+		
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="field has-addons">
+							<p class="control">
+								<input class="input is-primary" type="text" placeholder="Search">
+							</p>
+							<p class="control">
+								<button class="button is-primary">Search</button>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+
+		<div class="card container is-centered" style="margin-top: 15%; width: 50%;">
+			<header class="card-header">
+				<p class="card-header-title">
+					Login
+				</p>
+			</header>
+			<div class="card-content">
+				<div class="content">
+					<form action="#">
+						<div class="field">
+							<label class="label">Email</label>
+							<div class="control has-icons-left has-icons-right">
+								<input class="input" type="email" placeholder="e.g. [email protected]">
+								<span class="icon is-small is-left">
+									<i class="fas fa-envelope"></i>
+								</span>
+							</div>
+						</div>
+		
+						<div class="field">
+							<label class="label">Password</label>
+							<div class="control has-icons-left has-icons-right">
+								<input class="input" type="password" placeholder="*******">
+								<span class="icon is-small is-left">
+									<i class="fas fa-lock"></i>
+								</span>
+							</div>
+						</div>
+		
+						<div class="field is-grouped is-grouped-right mt-5">
+							<p class="control">
+								<button class="button is-success">
+									Login
+								</button>
+							</p>
+						</div>
+
+						<div class="control">
+							<p class="has-text-grey">Don't have an account? <a href="#">Register</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

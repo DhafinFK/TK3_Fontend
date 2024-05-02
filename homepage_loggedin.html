@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Streaming Service</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    >	
+  </head>
+  <body>
+    <nav class="navbar is-primary is-fixed-top" role="navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item is-size-3 has-text-weight-bold">
+                PacilFlix
+            </a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item is-active">
+                    Favorites
+                </a>
+    
+                <a class="navbar-item">
+                    Downloads
+                </a>
+    
+                <a class="navbar-item">
+                    Subscription
+                </a>
+    
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Explore
+                    </a>
+    
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Movies
+                        </a>
+                        <a class="navbar-item">
+                            Series
+                        </a>
+                        <a class="navbar-item">
+                            Trailers
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field has-addons">
+                        <p class="control">
+                            <input class="input is-primary" type="text" placeholder="Search">
+                        </p>
+                        <p class="control">
+                            <button class="button is-primary">Search</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card container is-centered" style="margin-top: 7%; width: 90%;">
+        <header class="card-header">
+          <p class="card-header-title is-size-4">
+            Top 10 Shows
+          </p>
+        </header>
+        <div class="card-content">
+          <table class="table is-fullwidth">
+            <thead>
+              <tr>
+                <th>Ranking#</th>
+                <th>Name</th>
+                <th>Trailer Synopsis</th>
+                <th>Trailer URL</th>
+                <th>Release Date</th>
+                <th>Weekly Views</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>dummy movie</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+                <td>700.000</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>dummy movie</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+                <td>700.000</td>
+              </tr>
+              <tr>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>dummy movie</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+                <td>700.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card container is-centered" style="margin-top: 5%; width: 90%;">
+        <header class="card-header">
+          <p class="card-header-title is-size-4">
+            Film
+          </p>
+        </header>
+        <div class="card-content">
+          <table class="table is-fullwidth">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Trailer Synopsis</th>
+                <th>Trailer URL</th>
+                <th>Release Date</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>dummy movie</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+              </tr>
+              <tr>
+                <td>dummy movie</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+              </tr>
+              <tr>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td>dummy movie</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card container is-centered" style="margin-top: 5%; width: 90%;">
+        <header class="card-header">
+          <p class="card-header-title is-size-4">
+            Series
+          </p>
+        </header>
+        <div class="card-content">
+          <table class="table is-fullwidth">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Trailer Synopsis</th>
+                <th>Trailer URL</th>
+                <th>Release Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>dummy series</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+              </tr>
+              <tr>
+                <td>dummy series</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+              </tr>
+              <tr>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td>dummy series</td>
+                <td>udin</td>
+                <td><a>https://dummylink.com</a></td>
+                <td>2022-01-01</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

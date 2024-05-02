@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Streaming Service</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    >	
+  </head>
+  <body>
+    <div class="modal is-active" id="addToFavoritesModal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">TAMBAH KE DAFTAR FAVORIT</p>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <div class="field">
+            <label class="label">Judul Daftar Favorit:</label>
+            <div class="control has-icons-left">
+                <div class="select is-fullwidth">
+                <select>
+                    <option>Favorite List 1</option>
+                    <option>Favorite List 2</option>
+                    <option>Favorite List 3</option>
+                </select>
+                </div>
+                <div class="icon is-small is-left">
+                <i class="fas fa-list"></i>
+                </div>
+            </div>
+            </div>
+        </section>
+        <footer class="modal-card-foot">
+            <button class="button is-success mr-2">Tambah</button>
+            <button class="button">Batal</button>
+        </footer>
+        </div>
+    </div>
+    </body>
+</html>
+

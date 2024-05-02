@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Streaming Service</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    >	
+  </head>
+  <body>
+    <div class="modal is-active" id="buyModal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">HALAMAN BELI</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <div class="field">
+              <label class="label">Informasi Paket yang Ingin Dibeli:</label>
+              <div class="control">
+                <p class="has-text-weight-bold">Nama: Premium</p>
+                <p>Harga: <data>$9.99</data></p>
+                <p>Resolusi Layar: <data>HD</data></p>
+                <p>Dukungan Perangkat: <data>Desktop, Tablet, Mobile</data></p>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Pilih Metode Pembayaran:</label>
+              <div class="control has-icons-left">
+                <div class="select is-fullwidth">
+                  <select>
+                    <option>Transfer Bank</option>
+                    <option>Kartu Kredit</option>
+                    <option>E-Wallet</option>
+                  </select>
+                </div>
+                <div class="icon is-small is-left">
+                  <i class="fas fa-credit-card"></i>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer class="modal-card-foot is-right">
+            <button class="button is-success">Bayar</button>
+            <button class="button">Batal</button>
+          </footer>
+        </div>
+      </div>
+</html>

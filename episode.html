@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Streaming Service</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
+    >	
+  </head>
+  <body>
+    <nav class="navbar is-primary is-fixed-top" role="navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item is-size-3 has-text-weight-bold">
+                PacilFlix
+            </a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item is-active">
+                    Favorites
+                </a>
+    
+                <a class="navbar-item">
+                    Downloads
+                </a>
+    
+                <a class="navbar-item">
+                    Subscription
+                </a>
+    
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Explore
+                    </a>
+    
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Movies
+                        </a>
+                        <a class="navbar-item">
+                            Series
+                        </a>
+                        <a class="navbar-item">
+                            Trailers
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field has-addons">
+                        <p class="control">
+                            <input class="input is-primary" type="text" placeholder="Search">
+                        </p>
+                        <p class="control">
+                            <button class="button is-primary">Search</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card container is-centered" style="margin-top: 8%; width: 70%;">
+        <header class="card-header">
+          <p class="card-header-title is-size-4">
+            Dummy Movie
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4">TV Series Title</p>
+              <p class="subtitle is-6">Episode Title</p>
+            </div>
+          </div>
+          <div class="content">
+            <p><strong>Episode Lainnya:</strong></p>
+            <ul>
+              <li><a href="#">Episode 1</a></li>
+              <li><a href="#">Episode 2</a></li>
+              <li><a href="#">Episode 3</a></li>
+            </ul>
+            <p><strong>Sinopsis Episode:</strong> <data>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</data></p>
+            <p><strong>Durasi Episode:</strong> <data>30 minutes</data></p>
+            <p><strong>URL Episode:</strong> <data>https://www.example.com</data></p>
+            <p><strong>Tanggal Rilis Episode:</strong> <data>2022-01-01</data></p>
+          </div>
+        </div>
+        <hr>
+
+        <div class="card-content">
+              <div class="buttons is-right">
+                <button class="button is-info">Tonton Tayangan</button>
+              </div>
+        </div>
+    </div>
+    <div class="card container is-centered" style="margin-top: 3%; width: 70%;">
+      <header class="card-header">
+        <p class="card-header-title is-size-4">
+          Contributors
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="field has-addons">
+          <div class="control">
+            filter by tipe:
+            <div class="select is-fullwidth">
+              <select>
+                <option>All</option>
+                <option>Type 1</option>
+                <option>Type 2</option>
+                <option>Type 3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-content">
+        <table class="table is-fullwidth">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Tipe</th>
+              <th>Jenis Kelamin</th>
+              <th>Kewaraganegaraan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </body>
+</html>
